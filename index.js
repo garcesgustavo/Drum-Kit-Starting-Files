@@ -2,7 +2,6 @@ var numberOfDrum = document.querySelectorAll(".drum").length;
 
 for (var i = 0; i < numberOfDrum; i++) {
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
-    (this.style.color = "yellow");
     var buttonInnerHtML = this.innerHTML;
     switch (buttonInnerHtML) {
       case "w":
