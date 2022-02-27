@@ -4,21 +4,21 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  font-size: 5rem;
+  color: #dbedf3;
+  text-shadow: 3px 0 #da0463;
 }
 
 footer {
-  color: #DBEDF3;
   font-family: sans-serif;
+  color: #dbedf3;
 }
 
 .w {
   background-image: url(images/crash.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .a {
@@ -28,32 +28,32 @@ footer {
 
 .s {
   background-image: url(images/snare.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .d {
   background-image: url(images/tom1.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .j {
   background-image: url(images/tom2.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .k {
   background-image: url(images/tom3.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .l {
   background-image: url(images/tom4.png);
-  background-size: contain;
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .set {
@@ -61,13 +61,13 @@ footer {
 }
 
 .game-over {
-  background-color: red;
   opacity: 0.8;
+  background-color: red;
 }
 
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
   opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #dbedf3;
 }
 
 .red {
@@ -75,19 +75,19 @@ footer {
 }
 
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
+  font-family: "Arvo", cursive;
   font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
+  line-height: 2;
   display: inline-block;
   width: 150px;
   height: 150px;
-  text-align: center;
   margin: 10px;
+  text-align: center;
+  color: #da0463;
+  border: 10px solid #404b69;
+  border-radius: 15px;
+  outline: none;
   background-color: white;
+  text-shadow: 3px 0 #dbedf3;
 }
